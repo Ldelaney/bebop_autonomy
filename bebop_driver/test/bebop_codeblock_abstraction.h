@@ -41,7 +41,7 @@ do                                                                              
     ros::Rate(5.0).sleep();                                                       \
   }                                                                               \
   ASSERT_TRUE(WAIT_UNTIL_TRUE);                                                   \
-}                                                                                 \
+}                                                                                \
 while (0)                                                                         \
 
 namespace bebop_driver
